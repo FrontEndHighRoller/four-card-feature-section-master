@@ -112,7 +112,7 @@ textarea:not([rows]) {
 .main-container {
   font-size: 0.93rem;
   font-family: "Poppins", sans-serif;
-  margin: 5rem 1.85rem;
+  margin: 3rem 1.85rem;
   min-width: 12.5rem;
 }
 
@@ -136,7 +136,7 @@ textarea:not([rows]) {
 
 .second_heading {
   font-weight: 600;
-  margin: 0.8rem 0 2rem 0;
+  margin: 0.8rem 0 1rem 0;
   letter-spacing: 0.5px;
 }
 
@@ -197,7 +197,6 @@ textarea:not([rows]) {
       "karma calculator"
       "karma calculator";
     gap: 1rem;
-    margin-top: 5rem;
     justify-content: center;
   }
 
@@ -232,5 +231,6 @@ textarea:not([rows]) {
       "supervisor team-builder calculator"
       "supervisor karma calculator"
       ". karma .";
+    margin-top: 3rem;
   }
 }
