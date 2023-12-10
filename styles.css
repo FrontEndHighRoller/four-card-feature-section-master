@@ -6,6 +6,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* Prevent font size inflation */
@@ -137,26 +139,26 @@ textarea:not([rows]) {
 .second_heading {
   font-weight: 600;
   margin: 0.8rem 0 1rem 0;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.02em;
 }
 
 .main_paragraph {
   color: var(--Grayish-Blue);
   font-weight: 400;
-  max-width: 500px;
+  max-width: 31.25rem;
 }
 
 .containers {
   display: flex;
   flex-direction: column;
-  row-gap: 25px;
+  row-gap: 1.56rem;
   margin-top: 5rem;
 }
 
 .container {
   border-radius: 0.5rem;
   padding: 1.2rem;
-  box-shadow: 5px 5px 20px 0 #888888;
+  box-shadow: 0.31rem 0.31rem 1.25rem 0 #888888;
 }
 
 .container img {
@@ -171,25 +173,25 @@ textarea:not([rows]) {
 }
 
 .container-1 {
-  border-top: 4px solid var(--Cyan);
+  border-top: 0.25rem solid var(--Cyan);
 }
 
 .container-2 {
-  border-top: 4px solid var(--Red);
+  border-top: 0.25rem solid var(--Red);
 }
 
 .container-3 {
-  border-top: 4px solid var(--Orange);
+  border-top: 0.25rem solid var(--Orange);
 }
 
 .container-4 {
-  border-top: 4px solid var(--Blue);
+  border-top: 0.25rem solid var(--Blue);
 }
 
 @media (min-width: 46.8rem) {
   .containers {
     display: grid;
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 21.8rem);
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "supervisor team-builder"
@@ -224,7 +226,7 @@ textarea:not([rows]) {
   }
 
   .containers {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 21.8rem);
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       ". team-builder ."
